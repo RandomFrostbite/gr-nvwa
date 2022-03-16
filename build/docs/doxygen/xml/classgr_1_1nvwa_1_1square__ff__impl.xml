@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1nvwa_1_1square__ff__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::nvwa::square_ff_impl</compoundname>
+    <basecompoundref refid="classgr_1_1nvwa_1_1square__ff" prot="public" virt="non-virtual">gr::nvwa::square_ff</basecompoundref>
+    <includes refid="square__ff__impl_8h" local="no">square_ff_impl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1nvwa_1_1square__ff__impl_1a37bf93cadabb891d15ca579ae4e3759b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::nvwa::square_ff_impl::square_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>square_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/square_ff_impl.h" line="22" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nvwa_1_1square__ff__impl_1a73dc66f02056ed000d5a3300b150d39c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::nvwa::square_ff_impl::~square_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~square_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/square_ff_impl.h" line="23" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nvwa_1_1square__ff__impl_1abc3878a9f33d7c5982d50fb66e34c4b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nvwa::square_ff_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/square_ff_impl.h" line="26" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nvwa_1_1square__ff__impl_1a2582b7e7205ff36efe092b08f4de573c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::nvwa::square_ff_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/square_ff_impl.h" line="28" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::nvwa::square_ff_impl</label>
+        <link refid="classgr_1_1nvwa_1_1square__ff__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::nvwa::square_ff</label>
+        <link refid="classgr_1_1nvwa_1_1square__ff"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::nvwa::square_ff_impl</label>
+        <link refid="classgr_1_1nvwa_1_1square__ff__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::nvwa::square_ff</label>
+        <link refid="classgr_1_1nvwa_1_1square__ff"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/nvwa/OOT/gr-nvwa/lib/square_ff_impl.h" line="16" column="1" bodyfile="/home/nvwa/OOT/gr-nvwa/lib/square_ff_impl.h" bodystart="17" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classgr_1_1nvwa_1_1square__ff__impl_1abc3878a9f33d7c5982d50fb66e34c4b2" prot="public" virt="non-virtual"><scope>gr::nvwa::square_ff_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1nvwa_1_1square__ff__impl_1a2582b7e7205ff36efe092b08f4de573c" prot="public" virt="non-virtual"><scope>gr::nvwa::square_ff_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1nvwa_1_1square__ff_1ad2ce807a87f25218d47cc2f1272994b5" prot="public" virt="non-virtual"><scope>gr::nvwa::square_ff_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1nvwa_1_1square__ff_1aad0cc414ffbc78e84fb9612f0fd37056" prot="public" virt="non-virtual"><scope>gr::nvwa::square_ff_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1nvwa_1_1square__ff__impl_1a37bf93cadabb891d15ca579ae4e3759b" prot="public" virt="non-virtual"><scope>gr::nvwa::square_ff_impl</scope><name>square_ff_impl</name></member>
+      <member refid="classgr_1_1nvwa_1_1square__ff__impl_1a73dc66f02056ed000d5a3300b150d39c" prot="public" virt="non-virtual"><scope>gr::nvwa::square_ff_impl</scope><name>~square_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

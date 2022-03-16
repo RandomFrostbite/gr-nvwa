@@ -1,0 +1,5 @@
+qa_square_ff 47 0.00355831
+qa_console_sink 46 0.00362344
+qa_enable_sink 27 0.00527024
+qa_buffer 20 0.00808374
+---

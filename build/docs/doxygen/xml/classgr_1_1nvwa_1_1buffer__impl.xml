@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1nvwa_1_1buffer__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::nvwa::buffer_impl</compoundname>
+    <basecompoundref refid="classgr_1_1nvwa_1_1buffer" prot="public" virt="non-virtual">gr::nvwa::buffer</basecompoundref>
+    <includes refid="buffer__impl_8h" local="no">buffer_impl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1nvwa_1_1buffer__impl_1a743a9e009c577c5d3d40bf6b2c083a20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::nvwa::buffer_impl::buffer_impl</definition>
+        <argsstring>()</argsstring>
+        <name>buffer_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/buffer_impl.h" line="22" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nvwa_1_1buffer__impl_1a515ebe95331fae8d0b31ad1dd6c3594e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::nvwa::buffer_impl::~buffer_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~buffer_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/buffer_impl.h" line="23" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nvwa_1_1buffer__impl_1a4c726446723335770f60f38b31883879" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nvwa::buffer_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/buffer_impl.h" line="26" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nvwa_1_1buffer__impl_1a2c2589388005cb56715a80dcc293ef4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::nvwa::buffer_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/buffer_impl.h" line="28" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::nvwa::buffer</label>
+        <link refid="classgr_1_1nvwa_1_1buffer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::nvwa::buffer_impl</label>
+        <link refid="classgr_1_1nvwa_1_1buffer__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::nvwa::buffer</label>
+        <link refid="classgr_1_1nvwa_1_1buffer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::nvwa::buffer_impl</label>
+        <link refid="classgr_1_1nvwa_1_1buffer__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/nvwa/OOT/gr-nvwa/lib/buffer_impl.h" line="16" column="1" bodyfile="/home/nvwa/OOT/gr-nvwa/lib/buffer_impl.h" bodystart="17" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classgr_1_1nvwa_1_1buffer__impl_1a743a9e009c577c5d3d40bf6b2c083a20" prot="public" virt="non-virtual"><scope>gr::nvwa::buffer_impl</scope><name>buffer_impl</name></member>
+      <member refid="classgr_1_1nvwa_1_1buffer__impl_1a4c726446723335770f60f38b31883879" prot="public" virt="non-virtual"><scope>gr::nvwa::buffer_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1nvwa_1_1buffer__impl_1a2c2589388005cb56715a80dcc293ef4e" prot="public" virt="non-virtual"><scope>gr::nvwa::buffer_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1nvwa_1_1buffer_1a18a9bd6aa78dfe4f33744ef56fdc8257" prot="public" virt="non-virtual"><scope>gr::nvwa::buffer_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1nvwa_1_1buffer_1ad9be6c1243ee25e7c50f2a381e61136c" prot="public" virt="non-virtual"><scope>gr::nvwa::buffer_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1nvwa_1_1buffer__impl_1a515ebe95331fae8d0b31ad1dd6c3594e" prot="public" virt="non-virtual"><scope>gr::nvwa::buffer_impl</scope><name>~buffer_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

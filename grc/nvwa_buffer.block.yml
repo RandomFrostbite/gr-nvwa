@@ -1,0 +1,18 @@
+id: nvwa_buffer
+label: Buffer
+category: '[Nvwa]'
+templates:
+  imports: from gnuradio import nvwa
+  make: nvwa.buffer()
+inputs:
+- label: input
+  domain: stream
+  dtype: float
+- label: enable
+  domain: stream
+  dtype: int
+outputs:
+- label: out
+  domain: stream
+  dtype: float
+file_format: 1

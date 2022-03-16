@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_f3fca6d5fb7e4e20dd6658ee06eaf554" kind="dir">
+    <compoundname>nvwa</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="buffer_8h">buffer.h</innerfile>
+    <innerfile refid="console__sink_8h">console_sink.h</innerfile>
+    <innerfile refid="enable__sink_8h">enable_sink.h</innerfile>
+    <innerfile refid="square__ff_8h">square_ff.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/nvwa/OOT/gr-nvwa/include/gnuradio/nvwa/"/>
+  </compounddef>
+</doxygen>

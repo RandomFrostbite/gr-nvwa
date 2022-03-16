@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/gnuradio/nvwa/api.h
+gnuradio/attributes.h
+-
+
+../include/gnuradio/nvwa/buffer.h
+gnuradio/block.h
+-
+gnuradio/nvwa/api.h
+-
+
+/home/nvwa/OOT/gr-nvwa/lib/buffer_impl.cc
+buffer_impl.h
+/home/nvwa/OOT/gr-nvwa/lib/buffer_impl.h
+gnuradio/io_signature.h
+-
+iostream
+-
+
+/home/nvwa/OOT/gr-nvwa/lib/buffer_impl.h
+gnuradio/nvwa/buffer.h
+-
+

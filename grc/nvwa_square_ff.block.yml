@@ -1,0 +1,15 @@
+id: nvwa_square_ff
+label: square ff
+category: '[Nvwa]'
+templates:
+  imports: from gnuradio import nvwa
+  make: nvwa.square_ff()
+inputs:
+- label: in
+  domain: stream
+  dtype: float
+outputs:
+- label: out
+  domain: stream
+  dtype: float
+file_format: 1

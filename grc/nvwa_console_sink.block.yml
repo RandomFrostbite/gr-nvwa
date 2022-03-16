@@ -1,0 +1,12 @@
+id: nvwa_console_sink
+label: console sink
+category: '[Nvwa]'
+templates:
+  imports: from gnuradio import nvwa
+  make: nvwa.console_sink()
+inputs:
+- label: in
+  domain: stream
+  dtype: float
+  multiplicity: '2'
+file_format: 1
