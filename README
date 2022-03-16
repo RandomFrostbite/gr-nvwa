@@ -1,5 +1,20 @@
+TO INSTALL THE MODULE:
+cd build
+./build.sh
+
+OR 
+
+cd build
+make clean
+cmake ../
+make 
+sudo make install
+make test
+
 Order in which OOT modules were created:
 square_ff
 console_sink
 enable_sink
 buffer
+
+<h2>HTML TEST</h2>
