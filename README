@@ -1,4 +1,10 @@
+TO DOWNLOAD THE MODULE:
+git clone https://github.com/RandomFrostbite/gr-nvwa.git
+
+
+
 TO INSTALL THE MODULE:
+cd gr-nvwa/
 cd build
 ./build.sh
 
@@ -16,4 +22,4 @@ square_ff
 console_sink
 enable_sink
 buffer
-sfp_splitter
+fsp_splitter
