@@ -1,23 +1,30 @@
+=============================================================
 TO DOWNLOAD THE MODULE:
+=============================================================
 git clone https://github.com/RandomFrostbite/gr-nvwa.git
 
 
 
+=============================================================
 TO INSTALL THE MODULE:
-cd gr-nvwa/
-cd build
+=============================================================
+cd gr-nvwa/build/
 ./build.sh
 
 OR 
 
-cd build
+cd gr-nvwa/build
 make clean
 cmake ../
 make 
 sudo make install
 make test
 
+
+
+=============================================================
 Order in which OOT modules were created:
+=============================================================
 square_ff
 console_sink
 enable_sink
