@@ -5,14 +5,14 @@ templates:
   imports: from gnuradio import nvwa
   make: nvwa.buffer()
 inputs:
-- label: input
+- label: In
   domain: stream
   dtype: float
-- label: enable
+- label: En
   domain: stream
   dtype: int
 outputs:
-- label: out
+- label: Out
   domain: stream
   dtype: float
 file_format: 1

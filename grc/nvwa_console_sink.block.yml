@@ -1,11 +1,11 @@
 id: nvwa_console_sink
-label: console sink
+label: Console Sink
 category: '[Nvwa]'
 templates:
   imports: from gnuradio import nvwa
   make: nvwa.console_sink()
 inputs:
-- label: in
+- label: In
   domain: stream
   dtype: float
   multiplicity: '1'
