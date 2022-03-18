@@ -282,6 +282,33 @@ enable_sink_impl.cc.s:
 	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-nvwa.dir/build.make lib/CMakeFiles/gnuradio-nvwa.dir/enable_sink_impl.cc.s
 .PHONY : enable_sink_impl.cc.s
 
+fsp_splitter_impl.o: fsp_splitter_impl.cc.o
+
+.PHONY : fsp_splitter_impl.o
+
+# target to build an object file
+fsp_splitter_impl.cc.o:
+	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-nvwa.dir/build.make lib/CMakeFiles/gnuradio-nvwa.dir/fsp_splitter_impl.cc.o
+.PHONY : fsp_splitter_impl.cc.o
+
+fsp_splitter_impl.i: fsp_splitter_impl.cc.i
+
+.PHONY : fsp_splitter_impl.i
+
+# target to preprocess a source file
+fsp_splitter_impl.cc.i:
+	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-nvwa.dir/build.make lib/CMakeFiles/gnuradio-nvwa.dir/fsp_splitter_impl.cc.i
+.PHONY : fsp_splitter_impl.cc.i
+
+fsp_splitter_impl.s: fsp_splitter_impl.cc.s
+
+.PHONY : fsp_splitter_impl.s
+
+# target to generate assembly for a file
+fsp_splitter_impl.cc.s:
+	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-nvwa.dir/build.make lib/CMakeFiles/gnuradio-nvwa.dir/fsp_splitter_impl.cc.s
+.PHONY : fsp_splitter_impl.cc.s
+
 square_ff_impl.o: square_ff_impl.cc.o
 
 .PHONY : square_ff_impl.o
@@ -332,6 +359,9 @@ help:
 	@echo "... enable_sink_impl.o"
 	@echo "... enable_sink_impl.i"
 	@echo "... enable_sink_impl.s"
+	@echo "... fsp_splitter_impl.o"
+	@echo "... fsp_splitter_impl.i"
+	@echo "... fsp_splitter_impl.s"
 	@echo "... square_ff_impl.o"
 	@echo "... square_ff_impl.i"
 	@echo "... square_ff_impl.s"

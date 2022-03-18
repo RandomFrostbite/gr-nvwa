@@ -17,6 +17,12 @@ python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o: ../pyth
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o: python/nvwa/bindings/enable_sink_pydoc.h
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o: python/nvwa/bindings/pydoc_macros.h
 
+python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o: ../include/gnuradio/nvwa/api.h
+python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o: ../include/gnuradio/nvwa/fsp_splitter.h
+python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o: ../python/nvwa/bindings/fsp_splitter_python.cc
+python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o: python/nvwa/bindings/fsp_splitter_pydoc.h
+python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o: python/nvwa/bindings/pydoc_macros.h
+
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o: ../python/nvwa/bindings/python_bindings.cc
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o: /usr/include/python3.9/Python.h
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o: /usr/include/python3.9/abstract.h

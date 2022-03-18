@@ -49,6 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/nvwa/OOT/gr-nvwa/include/gnuradio/nvwa/console_sink.h"
     "/home/nvwa/OOT/gr-nvwa/include/gnuradio/nvwa/enable_sink.h"
     "/home/nvwa/OOT/gr-nvwa/include/gnuradio/nvwa/buffer.h"
+    "/home/nvwa/OOT/gr-nvwa/include/gnuradio/nvwa/fsp_splitter.h"
     )
 endif()
 

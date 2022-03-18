@@ -9,5 +9,6 @@ install(FILES
     nvwa_square_ff.block.yml
     nvwa_console_sink.block.yml
     nvwa_enable_sink.block.yml
-    nvwa_buffer.block.yml DESTINATION share/gnuradio/grc/blocks
+    nvwa_buffer.block.yml
+    nvwa_fsp_splitter.block.yml DESTINATION share/gnuradio/grc/blocks
 )

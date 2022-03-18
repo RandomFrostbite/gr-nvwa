@@ -22,6 +22,12 @@ gnuradio/nvwa/api.h
 gnuradio/sync_block.h
 -
 
+../include/gnuradio/nvwa/fsp_splitter.h
+gnuradio/block.h
+-
+gnuradio/nvwa/api.h
+-
+
 ../include/gnuradio/nvwa/square_ff.h
 gnuradio/block.h
 -
@@ -52,6 +58,18 @@ gnuradio/nvwa/enable_sink.h
 enable_sink_pydoc.h
 -
 
+/home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/fsp_splitter_python.cc
+pybind11/complex.h
+-
+pybind11/pybind11.h
+-
+pybind11/stl.h
+-
+gnuradio/nvwa/fsp_splitter.h
+-
+fsp_splitter_pydoc.h
+-
+
 /home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/square_ff_python.cc
 pybind11/complex.h
 -
@@ -69,6 +87,10 @@ pydoc_macros.h
 python/nvwa/bindings/pydoc_macros.h
 
 python/nvwa/bindings/enable_sink_pydoc.h
+pydoc_macros.h
+python/nvwa/bindings/pydoc_macros.h
+
+python/nvwa/bindings/fsp_splitter_pydoc.h
 pydoc_macros.h
 python/nvwa/bindings/pydoc_macros.h
 

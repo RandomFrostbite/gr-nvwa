@@ -31,7 +31,8 @@ list(APPEND nvwa_python_files
     square_ff_python.cc
     console_sink_python.cc
     enable_sink_python.cc
-    buffer_python.cc python_bindings.cc)
+    buffer_python.cc
+    fsp_splitter_python.cc python_bindings.cc)
 
 GR_PYBIND_MAKE_OOT(nvwa
    ../../..

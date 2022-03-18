@@ -28,6 +28,15 @@ var files_dup =
     [ "enable_sink_pydoc.h", "enable__sink__pydoc_8h.html", "enable__sink__pydoc_8h" ],
     [ "build/test_modules/gnuradio/nvwa/bindings/docstrings/enable_sink_pydoc_template.h", "build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h.html", "build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h" ],
     [ "python/nvwa/bindings/docstrings/enable_sink_pydoc_template.h", "python_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h.html", "python_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h" ],
+    [ "fsp_splitter.h", "fsp__splitter_8h.html", [
+      [ "fsp_splitter", "classgr_1_1nvwa_1_1fsp__splitter.html", "classgr_1_1nvwa_1_1fsp__splitter" ]
+    ] ],
+    [ "fsp_splitter_impl.h", "fsp__splitter__impl_8h.html", [
+      [ "fsp_splitter_impl", "classgr_1_1nvwa_1_1fsp__splitter__impl.html", "classgr_1_1nvwa_1_1fsp__splitter__impl" ]
+    ] ],
+    [ "fsp_splitter_pydoc.h", "fsp__splitter__pydoc_8h.html", "fsp__splitter__pydoc_8h" ],
+    [ "build/test_modules/gnuradio/nvwa/bindings/docstrings/fsp_splitter_pydoc_template.h", "build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h.html", "build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h" ],
+    [ "python/nvwa/bindings/docstrings/fsp_splitter_pydoc_template.h", "python_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h.html", "python_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h" ],
     [ "build/python/nvwa/bindings/pydoc_macros.h", "build_2python_2nvwa_2bindings_2pydoc__macros_8h.html", "build_2python_2nvwa_2bindings_2pydoc__macros_8h" ],
     [ "docs/doxygen/pydoc_macros.h", "docs_2doxygen_2pydoc__macros_8h.html", "docs_2doxygen_2pydoc__macros_8h" ],
     [ "square_ff.h", "square__ff_8h.html", [

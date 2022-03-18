@@ -17,6 +17,12 @@ python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o
  /home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/enable_sink_python.cc
  python/nvwa/bindings/enable_sink_pydoc.h
  python/nvwa/bindings/pydoc_macros.h
+python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o
+ ../include/gnuradio/nvwa/api.h
+ ../include/gnuradio/nvwa/fsp_splitter.h
+ /home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/fsp_splitter_python.cc
+ python/nvwa/bindings/fsp_splitter_pydoc.h
+ python/nvwa/bindings/pydoc_macros.h
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o
  /home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/python_bindings.cc
  /usr/include/python3.9/Python.h

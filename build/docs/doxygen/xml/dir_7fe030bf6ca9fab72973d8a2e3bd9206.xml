@@ -5,6 +5,7 @@
     <innerfile refid="buffer__pydoc_8h">buffer_pydoc.h</innerfile>
     <innerfile refid="console__sink__pydoc_8h">console_sink_pydoc.h</innerfile>
     <innerfile refid="enable__sink__pydoc_8h">enable_sink_pydoc.h</innerfile>
+    <innerfile refid="fsp__splitter__pydoc_8h">fsp_splitter_pydoc.h</innerfile>
     <innerfile refid="build_2python_2nvwa_2bindings_2pydoc__macros_8h">build/python/nvwa/bindings/pydoc_macros.h</innerfile>
     <innerfile refid="square__ff__pydoc_8h">square_ff_pydoc.h</innerfile>
     <briefdescription>

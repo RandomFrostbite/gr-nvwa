@@ -29,6 +29,23 @@
     <member refid="classgr_1_1nvwa_1_1enable__sink__impl_1a5f2ab0734227d94758420e0f143f6b18" kind="function"><name>~enable_sink_impl</name></member>
     <member refid="classgr_1_1nvwa_1_1enable__sink__impl_1a616f7f79e7250dbe605f28c0ca470a31" kind="function"><name>work</name></member>
   </compound>
+  <compound refid="classgr_1_1nvwa_1_1fsp__splitter" kind="class"><name>gr::nvwa::fsp_splitter</name>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter_1a949f1da312d294f9be741b7f89299c47" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter_1a027dbdaff10b976372368d84c2b3a765" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1nvwa_1_1fsp__splitter__impl" kind="class"><name>gr::nvwa::fsp_splitter_impl</name>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1afb0e52fe6ca0781e3162a74da7f4206f" kind="enum"><name>STATE</name></member>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1afb0e52fe6ca0781e3162a74da7f4206face75afaa180390f4b9785e7deda2dc49" kind="enumvalue"><name>PEAK_SEARCH</name></member>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1afb0e52fe6ca0781e3162a74da7f4206fa03d0834f28745a6a2de571f0d20d6dd9" kind="enumvalue"><name>PEAK_FOUND</name></member>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1a5a202d72d375ec08b055fd3bce8b31be" kind="variable"><name>m_threshold</name></member>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1af715d921d12bb3f912542a63f4f919d3" kind="variable"><name>m_delay_counter</name></member>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1ab2f1d4af0dd68241c1b072ecf6ab8758" kind="variable"><name>m_freq_sync_preamble_size</name></member>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1a968073ab0c33f34624e4dfda28ee57a0" kind="variable"><name>m_state</name></member>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1a118be8d9d6df960e20d5b7a94b0ee691" kind="function"><name>fsp_splitter_impl</name></member>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1a89f4123a306392157741be347a107565" kind="function"><name>~fsp_splitter_impl</name></member>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1ac770cea76efdfb3ece8b3a06ffcce135" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1a4143f86e65bc85965c4d5b5a4154df19" kind="function"><name>general_work</name></member>
+  </compound>
   <compound refid="classgr_1_1nvwa_1_1square__ff" kind="class"><name>gr::nvwa::square_ff</name>
     <member refid="classgr_1_1nvwa_1_1square__ff_1aad0cc414ffbc78e84fb9612f0fd37056" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1nvwa_1_1square__ff_1ad2ce807a87f25218d47cc2f1272994b5" kind="function"><name>make</name></member>
@@ -113,6 +130,28 @@
     <member refid="python_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h_1ac9735132cf7ea33cdef88b5fec6f52e4" kind="variable"><name>__doc_gr_nvwa_enable_sink</name></member>
     <member refid="python_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h_1ac731f6c7772d2e2ed8ee5213719c10db" kind="variable"><name>__doc_gr_nvwa_enable_sink_enable_sink</name></member>
     <member refid="python_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h_1a0450a3e6f94d2e30467bb3e4fb9e47f4" kind="variable"><name>__doc_gr_nvwa_enable_sink_make</name></member>
+  </compound>
+  <compound refid="fsp__splitter_8h" kind="file"><name>fsp_splitter.h</name>
+  </compound>
+  <compound refid="fsp__splitter__impl_8h" kind="file"><name>fsp_splitter_impl.h</name>
+  </compound>
+  <compound refid="fsp__splitter__pydoc_8h" kind="file"><name>fsp_splitter_pydoc.h</name>
+    <member refid="fsp__splitter__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="fsp__splitter__pydoc_8h_1a40da3d46ee48f2063c7652ffe6dfb326" kind="variable"><name>__doc_gr_nvwa_fsp_splitter</name></member>
+    <member refid="fsp__splitter__pydoc_8h_1aef2b348c0387ac0e2c42e93c39530cb5" kind="variable"><name>__doc_gr_nvwa_fsp_splitter_fsp_splitter</name></member>
+    <member refid="fsp__splitter__pydoc_8h_1abb70feb953869e1ea95a68ce2f1d1994" kind="variable"><name>__doc_gr_nvwa_fsp_splitter_make</name></member>
+  </compound>
+  <compound refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h" kind="file"><name>build/test_modules/gnuradio/nvwa/bindings/docstrings/fsp_splitter_pydoc_template.h</name>
+    <member refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h_1a40da3d46ee48f2063c7652ffe6dfb326" kind="variable"><name>__doc_gr_nvwa_fsp_splitter</name></member>
+    <member refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h_1aef2b348c0387ac0e2c42e93c39530cb5" kind="variable"><name>__doc_gr_nvwa_fsp_splitter_fsp_splitter</name></member>
+    <member refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h_1abb70feb953869e1ea95a68ce2f1d1994" kind="variable"><name>__doc_gr_nvwa_fsp_splitter_make</name></member>
+  </compound>
+  <compound refid="python_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h" kind="file"><name>python/nvwa/bindings/docstrings/fsp_splitter_pydoc_template.h</name>
+    <member refid="python_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="python_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h_1a40da3d46ee48f2063c7652ffe6dfb326" kind="variable"><name>__doc_gr_nvwa_fsp_splitter</name></member>
+    <member refid="python_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h_1aef2b348c0387ac0e2c42e93c39530cb5" kind="variable"><name>__doc_gr_nvwa_fsp_splitter_fsp_splitter</name></member>
+    <member refid="python_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h_1abb70feb953869e1ea95a68ce2f1d1994" kind="variable"><name>__doc_gr_nvwa_fsp_splitter_make</name></member>
   </compound>
   <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
   </compound>

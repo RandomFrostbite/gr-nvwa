@@ -14,7 +14,9 @@ list(APPEND nvwa_sources
     square_ff_impl.cc
     console_sink_impl.cc
     enable_sink_impl.cc
-    buffer_impl.cc )
+    buffer_impl.cc
+    #splitter_impl.cc
+    fsp_splitter_impl.cc )
 
 set(nvwa_sources "${nvwa_sources}" PARENT_SCOPE)
 if(NOT nvwa_sources)

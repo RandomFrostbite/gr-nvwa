@@ -128,9 +128,22 @@ python/nvwa/bindings/CMakeFiles/nvwa_python.dir/buffer_python.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvwa_python.dir/buffer_python.cc.s"
 	cd /home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/buffer_python.cc -o CMakeFiles/nvwa_python.dir/buffer_python.cc.s
 
+python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o: python/nvwa/bindings/CMakeFiles/nvwa_python.dir/flags.make
+python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o: ../python/nvwa/bindings/fsp_splitter_python.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvwa/OOT/gr-nvwa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o"
+	cd /home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o -c /home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/fsp_splitter_python.cc
+
+python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.i"
+	cd /home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/fsp_splitter_python.cc > CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.i
+
+python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.s"
+	cd /home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/fsp_splitter_python.cc -o CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.s
+
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o: python/nvwa/bindings/CMakeFiles/nvwa_python.dir/flags.make
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o: ../python/nvwa/bindings/python_bindings.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvwa/OOT/gr-nvwa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nvwa/OOT/gr-nvwa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o"
 	cd /home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nvwa_python.dir/python_bindings.cc.o -c /home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/python_bindings.cc
 
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.i: cmake_force
@@ -147,6 +160,7 @@ nvwa_python_OBJECTS = \
 "CMakeFiles/nvwa_python.dir/console_sink_python.cc.o" \
 "CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o" \
 "CMakeFiles/nvwa_python.dir/buffer_python.cc.o" \
+"CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o" \
 "CMakeFiles/nvwa_python.dir/python_bindings.cc.o"
 
 # External object files for target nvwa_python
@@ -156,6 +170,7 @@ python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so: python/nvwa/bin
 python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so: python/nvwa/bindings/CMakeFiles/nvwa_python.dir/console_sink_python.cc.o
 python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so: python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o
 python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so: python/nvwa/bindings/CMakeFiles/nvwa_python.dir/buffer_python.cc.o
+python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so: python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o
 python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so: python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o
 python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so: python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make
 python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.74.0
@@ -174,7 +189,7 @@ python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so: /usr/lib/x86_64
 python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libgmpxx.so
 python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libgmp.so
 python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so: python/nvwa/bindings/CMakeFiles/nvwa_python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nvwa/OOT/gr-nvwa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared module nvwa_python.cpython-39-x86_64-linux-gnu.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nvwa/OOT/gr-nvwa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared module nvwa_python.cpython-39-x86_64-linux-gnu.so"
 	cd /home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nvwa_python.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings && /usr/bin/strip /home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/nvwa_python.cpython-39-x86_64-linux-gnu.so
 

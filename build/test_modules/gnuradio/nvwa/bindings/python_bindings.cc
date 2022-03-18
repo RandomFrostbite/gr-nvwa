@@ -25,6 +25,7 @@ namespace py = pybind11;
     void bind_console_sink(py::module& m);
     void bind_enable_sink(py::module& m);
     void bind_buffer(py::module& m);
+    void bind_fsp_splitter(py::module& m);
 // ) END BINDING_FUNCTION_PROTOTYPES
 
 
@@ -57,5 +58,6 @@ PYBIND11_MODULE(nvwa_python, m)
     bind_console_sink(m);
     bind_enable_sink(m);
     bind_buffer(m);
+    bind_fsp_splitter(m);
     // ) END BINDING_FUNCTION_CALLS
 }

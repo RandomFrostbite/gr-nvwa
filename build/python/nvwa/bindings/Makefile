@@ -327,6 +327,33 @@ enable_sink_python.cc.s:
 	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.s
 .PHONY : enable_sink_python.cc.s
 
+fsp_splitter_python.o: fsp_splitter_python.cc.o
+
+.PHONY : fsp_splitter_python.o
+
+# target to build an object file
+fsp_splitter_python.cc.o:
+	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o
+.PHONY : fsp_splitter_python.cc.o
+
+fsp_splitter_python.i: fsp_splitter_python.cc.i
+
+.PHONY : fsp_splitter_python.i
+
+# target to preprocess a source file
+fsp_splitter_python.cc.i:
+	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.i
+.PHONY : fsp_splitter_python.cc.i
+
+fsp_splitter_python.s: fsp_splitter_python.cc.s
+
+.PHONY : fsp_splitter_python.s
+
+# target to generate assembly for a file
+fsp_splitter_python.cc.s:
+	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.s
+.PHONY : fsp_splitter_python.cc.s
+
 python_bindings.o: python_bindings.cc.o
 
 .PHONY : python_bindings.o
@@ -407,6 +434,9 @@ help:
 	@echo "... enable_sink_python.o"
 	@echo "... enable_sink_python.i"
 	@echo "... enable_sink_python.s"
+	@echo "... fsp_splitter_python.o"
+	@echo "... fsp_splitter_python.i"
+	@echo "... fsp_splitter_python.s"
 	@echo "... python_bindings.o"
 	@echo "... python_bindings.i"
 	@echo "... python_bindings.s"

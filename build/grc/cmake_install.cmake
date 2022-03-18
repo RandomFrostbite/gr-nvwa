@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/nvwa/OOT/gr-nvwa/grc/nvwa_console_sink.block.yml"
     "/home/nvwa/OOT/gr-nvwa/grc/nvwa_enable_sink.block.yml"
     "/home/nvwa/OOT/gr-nvwa/grc/nvwa_buffer.block.yml"
+    "/home/nvwa/OOT/gr-nvwa/grc/nvwa_fsp_splitter.block.yml"
     )
 endif()
 

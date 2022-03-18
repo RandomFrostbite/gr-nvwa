@@ -5,6 +5,7 @@
     <innerfile refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2buffer__pydoc__template_8h">build/test_modules/gnuradio/nvwa/bindings/docstrings/buffer_pydoc_template.h</innerfile>
     <innerfile refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2console__sink__pydoc__template_8h">build/test_modules/gnuradio/nvwa/bindings/docstrings/console_sink_pydoc_template.h</innerfile>
     <innerfile refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h">build/test_modules/gnuradio/nvwa/bindings/docstrings/enable_sink_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2fsp__splitter__pydoc__template_8h">build/test_modules/gnuradio/nvwa/bindings/docstrings/fsp_splitter_pydoc_template.h</innerfile>
     <innerfile refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2square__ff__pydoc__template_8h">build/test_modules/gnuradio/nvwa/bindings/docstrings/square_ff_pydoc_template.h</innerfile>
     <briefdescription>
     </briefdescription>

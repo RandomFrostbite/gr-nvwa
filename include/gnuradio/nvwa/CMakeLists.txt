@@ -14,5 +14,6 @@ install(FILES
     square_ff.h
     console_sink.h
     enable_sink.h
-    buffer.h DESTINATION include/gnuradio/nvwa
+    buffer.h
+    fsp_splitter.h DESTINATION include/gnuradio/nvwa
 )

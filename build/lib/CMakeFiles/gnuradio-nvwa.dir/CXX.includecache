@@ -10,21 +10,21 @@
 gnuradio/attributes.h
 -
 
-../include/gnuradio/nvwa/buffer.h
+../include/gnuradio/nvwa/fsp_splitter.h
 gnuradio/block.h
 -
 gnuradio/nvwa/api.h
 -
 
-/home/nvwa/OOT/gr-nvwa/lib/buffer_impl.cc
-buffer_impl.h
-/home/nvwa/OOT/gr-nvwa/lib/buffer_impl.h
+/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.cc
+fsp_splitter_impl.h
+/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h
 gnuradio/io_signature.h
 -
-iostream
+algorithm
 -
 
-/home/nvwa/OOT/gr-nvwa/lib/buffer_impl.h
-gnuradio/nvwa/buffer.h
+/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h
+gnuradio/nvwa/fsp_splitter.h
 -
 

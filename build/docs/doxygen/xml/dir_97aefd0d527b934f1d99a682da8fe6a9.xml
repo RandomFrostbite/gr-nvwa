@@ -5,6 +5,7 @@
     <innerfile refid="buffer__impl_8h">buffer_impl.h</innerfile>
     <innerfile refid="console__sink__impl_8h">console_sink_impl.h</innerfile>
     <innerfile refid="enable__sink__impl_8h">enable_sink_impl.h</innerfile>
+    <innerfile refid="fsp__splitter__impl_8h">fsp_splitter_impl.h</innerfile>
     <innerfile refid="square__ff__impl_8h">square_ff_impl.h</innerfile>
     <briefdescription>
     </briefdescription>

@@ -42,3 +42,4 @@ GR_ADD_TEST(qa_square_ff ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_squ
 GR_ADD_TEST(qa_console_sink ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_console_sink.py)
 GR_ADD_TEST(qa_enable_sink ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_enable_sink.py)
 GR_ADD_TEST(qa_buffer ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_buffer.py)
+GR_ADD_TEST(qa_fsp_splitter ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_fsp_splitter.py)

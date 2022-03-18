@@ -7,7 +7,7 @@
 #
 
 from gnuradio import gr, gr_unittest
-# from gnuradio import blocks
+from gnuradio import blocks
 try:
   from gnuradio.nvwa import enable_sink
 except ImportError:

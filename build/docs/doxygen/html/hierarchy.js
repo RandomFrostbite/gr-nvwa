@@ -4,6 +4,9 @@ var hierarchy =
       [ "gr::nvwa::buffer", "classgr_1_1nvwa_1_1buffer.html", [
         [ "gr::nvwa::buffer_impl", "classgr_1_1nvwa_1_1buffer__impl.html", null ]
       ] ],
+      [ "gr::nvwa::fsp_splitter", "classgr_1_1nvwa_1_1fsp__splitter.html", [
+        [ "gr::nvwa::fsp_splitter_impl", "classgr_1_1nvwa_1_1fsp__splitter__impl.html", null ]
+      ] ],
       [ "gr::nvwa::square_ff", "classgr_1_1nvwa_1_1square__ff.html", [
         [ "gr::nvwa::square_ff_impl", "classgr_1_1nvwa_1_1square__ff__impl.html", null ]
       ] ]

@@ -8,5 +8,5 @@ inputs:
 - label: in
   domain: stream
   dtype: float
-  multiplicity: '2'
+  multiplicity: '1'
 file_format: 1

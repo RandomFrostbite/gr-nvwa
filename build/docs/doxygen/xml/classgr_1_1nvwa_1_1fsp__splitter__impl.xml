@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1nvwa_1_1fsp__splitter__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::nvwa::fsp_splitter_impl</compoundname>
+    <basecompoundref refid="classgr_1_1nvwa_1_1fsp__splitter" prot="public" virt="non-virtual">gr::nvwa::fsp_splitter</basecompoundref>
+    <includes refid="fsp__splitter__impl_8h" local="no">fsp_splitter_impl.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classgr_1_1nvwa_1_1fsp__splitter__impl_1afb0e52fe6ca0781e3162a74da7f4206f" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>STATE</name>
+        <enumvalue id="classgr_1_1nvwa_1_1fsp__splitter__impl_1afb0e52fe6ca0781e3162a74da7f4206face75afaa180390f4b9785e7deda2dc49" prot="private">
+          <name>PEAK_SEARCH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1nvwa_1_1fsp__splitter__impl_1afb0e52fe6ca0781e3162a74da7f4206fa03d0834f28745a6a2de571f0d20d6dd9" prot="private">
+          <name>PEAK_FOUND</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" line="22" column="5" bodyfile="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1nvwa_1_1fsp__splitter__impl_1a5a202d72d375ec08b055fd3bce8b31be" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::nvwa::fsp_splitter_impl::m_threshold</definition>
+        <argsstring></argsstring>
+        <name>m_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" line="19" column="11" bodyfile="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1nvwa_1_1fsp__splitter__impl_1af715d921d12bb3f912542a63f4f919d3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::nvwa::fsp_splitter_impl::m_delay_counter</definition>
+        <argsstring></argsstring>
+        <name>m_delay_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" line="20" column="9" bodyfile="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1nvwa_1_1fsp__splitter__impl_1ab2f1d4af0dd68241c1b072ecf6ab8758" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::nvwa::fsp_splitter_impl::m_freq_sync_preamble_size</definition>
+        <argsstring></argsstring>
+        <name>m_freq_sync_preamble_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" line="21" column="9" bodyfile="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1nvwa_1_1fsp__splitter__impl_1a968073ab0c33f34624e4dfda28ee57a0" prot="private" static="no" mutable="no">
+        <type>STATE</type>
+        <definition>STATE gr::nvwa::fsp_splitter_impl::m_state</definition>
+        <argsstring></argsstring>
+        <name>m_state</name>
+        <initializer>= STATE::PEAK_SEARCH</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" line="23" column="11" bodyfile="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1nvwa_1_1fsp__splitter__impl_1a118be8d9d6df960e20d5b7a94b0ee691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::nvwa::fsp_splitter_impl::fsp_splitter_impl</definition>
+        <argsstring>(float threshold, int delay_counter, int freq_sync_preamble_size)</argsstring>
+        <name>fsp_splitter_impl</name>
+        <param>
+          <type>float</type>
+          <declname>threshold</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delay_counter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>freq_sync_preamble_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" line="26" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nvwa_1_1fsp__splitter__impl_1a89f4123a306392157741be347a107565" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::nvwa::fsp_splitter_impl::~fsp_splitter_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~fsp_splitter_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" line="27" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nvwa_1_1fsp__splitter__impl_1ac770cea76efdfb3ece8b3a06ffcce135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::nvwa::fsp_splitter_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" line="30" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1nvwa_1_1fsp__splitter__impl_1a4143f86e65bc85965c4d5b5a4154df19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::nvwa::fsp_splitter_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" line="32" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::nvwa::fsp_splitter_impl</label>
+        <link refid="classgr_1_1nvwa_1_1fsp__splitter__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::nvwa::fsp_splitter</label>
+        <link refid="classgr_1_1nvwa_1_1fsp__splitter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::nvwa::fsp_splitter_impl</label>
+        <link refid="classgr_1_1nvwa_1_1fsp__splitter__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::nvwa::fsp_splitter</label>
+        <link refid="classgr_1_1nvwa_1_1fsp__splitter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" line="16" column="1" bodyfile="/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h" bodystart="17" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1ac770cea76efdfb3ece8b3a06ffcce135" prot="public" virt="non-virtual"><scope>gr::nvwa::fsp_splitter_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1a118be8d9d6df960e20d5b7a94b0ee691" prot="public" virt="non-virtual"><scope>gr::nvwa::fsp_splitter_impl</scope><name>fsp_splitter_impl</name></member>
+      <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1a4143f86e65bc85965c4d5b5a4154df19" prot="public" virt="non-virtual"><scope>gr::nvwa::fsp_splitter_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1af715d921d12bb3f912542a63f4f919d3" prot="private" virt="non-virtual"><scope>gr::nvwa::fsp_splitter_impl</scope><name>m_delay_counter</name></member>
+      <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1ab2f1d4af0dd68241c1b072ecf6ab8758" prot="private" virt="non-virtual"><scope>gr::nvwa::fsp_splitter_impl</scope><name>m_freq_sync_preamble_size</name></member>
+      <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1a968073ab0c33f34624e4dfda28ee57a0" prot="private" virt="non-virtual"><scope>gr::nvwa::fsp_splitter_impl</scope><name>m_state</name></member>
+      <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1a5a202d72d375ec08b055fd3bce8b31be" prot="private" virt="non-virtual"><scope>gr::nvwa::fsp_splitter_impl</scope><name>m_threshold</name></member>
+      <member refid="classgr_1_1nvwa_1_1fsp__splitter_1a027dbdaff10b976372368d84c2b3a765" prot="public" virt="non-virtual"><scope>gr::nvwa::fsp_splitter_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1nvwa_1_1fsp__splitter_1a949f1da312d294f9be741b7f89299c47" prot="public" virt="non-virtual"><scope>gr::nvwa::fsp_splitter_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1afb0e52fe6ca0781e3162a74da7f4206f" prot="private" virt="non-virtual"><scope>gr::nvwa::fsp_splitter_impl</scope><name>STATE</name></member>
+      <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1a89f4123a306392157741be347a107565" prot="public" virt="non-virtual"><scope>gr::nvwa::fsp_splitter_impl</scope><name>~fsp_splitter_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

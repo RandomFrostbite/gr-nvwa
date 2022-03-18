@@ -1,0 +1,33 @@
+id: nvwa_fsp_splitter
+label: fsp splitter
+category: '[Nvwa]'
+templates:
+  imports: from gnuradio import nvwa
+  make: nvwa.fsp_splitter(${threshold}, ${delay_counter}, ${freq_sync_preamble_size})
+parameters:
+- id: threshold
+  label: Threshold
+  default: ' 0'
+  dtype: float
+- id: delay_counter
+  label: Delay_counter
+  default: ' 0'
+  dtype: int
+- id: freq_sync_preamble_size
+  label: Freq_sync_preamble_size
+  default: ' 0'
+  dtype: int
+inputs:
+- label: in
+  domain: stream
+  dtype: float
+outputs:
+- label: freq_synk_preamble
+  domain: stream
+  dtype: float
+  multiplicity: '1'
+- label: data
+  domain: stream
+  dtype: float
+  multiplicity: '1'
+file_format: 1
