@@ -16,7 +16,4 @@ square_ff
 console_sink
 enable_sink
 buffer
-<<<<<<< HEAD
 sfp_splitter
-=======
->>>>>>> d820a2cf8dc286fdfe2b2f48f2f4173cf9e83295
