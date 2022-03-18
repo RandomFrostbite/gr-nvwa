@@ -11,12 +11,6 @@ python/nvwa/bindings/CMakeFiles/nvwa_python.dir/console_sink_python.cc.o: ../inc
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/console_sink_python.cc.o: ../include/gnuradio/nvwa/console_sink.h
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/console_sink_python.cc.o: ../python/nvwa/bindings/console_sink_python.cc
 
-python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o: ../include/gnuradio/nvwa/api.h
-python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o: ../include/gnuradio/nvwa/enable_sink.h
-python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o: ../python/nvwa/bindings/enable_sink_python.cc
-python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o: python/nvwa/bindings/enable_sink_pydoc.h
-python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o: python/nvwa/bindings/pydoc_macros.h
-
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o: ../include/gnuradio/nvwa/api.h
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o: ../include/gnuradio/nvwa/fsp_splitter.h
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o: ../python/nvwa/bindings/fsp_splitter_python.cc
@@ -136,10 +130,4 @@ python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o: /usr/inclu
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o: /usr/include/python3.9/unicodeobject.h
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o: /usr/include/python3.9/warnings.h
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o: /usr/include/python3.9/weakrefobject.h
-
-python/nvwa/bindings/CMakeFiles/nvwa_python.dir/square_ff_python.cc.o: ../include/gnuradio/nvwa/api.h
-python/nvwa/bindings/CMakeFiles/nvwa_python.dir/square_ff_python.cc.o: ../include/gnuradio/nvwa/square_ff.h
-python/nvwa/bindings/CMakeFiles/nvwa_python.dir/square_ff_python.cc.o: ../python/nvwa/bindings/square_ff_python.cc
-python/nvwa/bindings/CMakeFiles/nvwa_python.dir/square_ff_python.cc.o: python/nvwa/bindings/pydoc_macros.h
-python/nvwa/bindings/CMakeFiles/nvwa_python.dir/square_ff_python.cc.o: python/nvwa/bindings/square_ff_pydoc.h
 

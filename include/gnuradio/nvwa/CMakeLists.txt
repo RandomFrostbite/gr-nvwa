@@ -11,9 +11,8 @@
 ########################################################################
 install(FILES
     api.h
-    square_ff.h
     console_sink.h
-    enable_sink.h
     buffer.h
-    fsp_splitter.h DESTINATION include/gnuradio/nvwa
+    fsp_splitter.h
+    DESTINATION include/gnuradio/nvwa
 )

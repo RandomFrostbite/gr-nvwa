@@ -14,7 +14,7 @@
 /* BINDTOOL_GEN_AUTOMATIC(0)                                                       */
 /* BINDTOOL_USE_PYGCCXML(0)                                                        */
 /* BINDTOOL_HEADER_FILE(enable_sink.h)                                        */
-/* BINDTOOL_HEADER_FILE_HASH(73561d444d3c1ea2dc65ee9ab9d9d887)                     */
+/* BINDTOOL_HEADER_FILE_HASH(fbd3bbddecf6a4745c8b62fd7b847027)                     */
 /***********************************************************************************/
 
 #include <pybind11/complex.h>
@@ -33,7 +33,7 @@ void bind_enable_sink(py::module& m)
     using enable_sink    = gr::nvwa::enable_sink;
 
 
-    py::class_<enable_sink, gr::sync_block, gr::block, gr::basic_block,
+    py::class_<enable_sink, gr::block, gr::basic_block,
         std::shared_ptr<enable_sink>>(m, "enable_sink", D(enable_sink))
 
         .def(py::init(&enable_sink::make),

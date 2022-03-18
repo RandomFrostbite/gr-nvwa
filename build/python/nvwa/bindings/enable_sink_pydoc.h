@@ -22,10 +22,7 @@ Constructor Specific Documentation:
 
 Return a shared_ptr to a new instance of nvwa::enable_sink.
 
-To avoid accidental use of raw pointers, nvwa::enable_sink's constructor is in a private implementation class. nvwa::enable_sink::make is the public interface for creating new instances.
-
-Args:
-    code : )doc";
+To avoid accidental use of raw pointers, nvwa::enable_sink's constructor is in a private implementation class. nvwa::enable_sink::make is the public interface for creating new instances.)doc";
 
 
  static const char *__doc_gr_nvwa_enable_sink_enable_sink = R"doc()doc";
@@ -37,9 +34,6 @@ Constructor Specific Documentation:
 
 Return a shared_ptr to a new instance of nvwa::enable_sink.
 
-To avoid accidental use of raw pointers, nvwa::enable_sink's constructor is in a private implementation class. nvwa::enable_sink::make is the public interface for creating new instances.
-
-Args:
-    code : )doc";
+To avoid accidental use of raw pointers, nvwa::enable_sink's constructor is in a private implementation class. nvwa::enable_sink::make is the public interface for creating new instances.)doc";
 
   

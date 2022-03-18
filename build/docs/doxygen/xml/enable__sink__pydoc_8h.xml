@@ -41,10 +41,7 @@ Constructor Specific Documentation:
 
 Return a shared_ptr to a new instance of nvwa::enable_sink.
 
-To avoid accidental use of raw pointers, nvwa::enable_sink&apos;s constructor is in a private implementation class. nvwa::enable_sink::make is the public interface for creating new instances.
-
-Args:
-    code : )doc&quot;</initializer>
+To avoid accidental use of raw pointers, nvwa::enable_sink&apos;s constructor is in a private implementation class. nvwa::enable_sink::make is the public interface for creating new instances.)doc&quot;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -65,7 +62,7 @@ Args:
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/enable_sink_pydoc.h" line="31" column="20" bodyfile="/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/enable_sink_pydoc.h" bodystart="31" bodyend="-1"/>
+        <location file="/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/enable_sink_pydoc.h" line="28" column="20" bodyfile="/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/enable_sink_pydoc.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="enable__sink__pydoc_8h_1a0450a3e6f94d2e30467bb3e4fb9e47f4" prot="public" static="yes" mutable="no">
         <type>const char *</type>
@@ -78,17 +75,14 @@ Constructor Specific Documentation:
 
 Return a shared_ptr to a new instance of nvwa::enable_sink.
 
-To avoid accidental use of raw pointers, nvwa::enable_sink&apos;s constructor is in a private implementation class. nvwa::enable_sink::make is the public interface for creating new instances.
-
-Args:
-    code : )doc&quot;</initializer>
+To avoid accidental use of raw pointers, nvwa::enable_sink&apos;s constructor is in a private implementation class. nvwa::enable_sink::make is the public interface for creating new instances.)doc&quot;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/enable_sink_pydoc.h" line="34" column="20" bodyfile="/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/enable_sink_pydoc.h" bodystart="34" bodyend="-1"/>
+        <location file="/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/enable_sink_pydoc.h" line="31" column="20" bodyfile="/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/enable_sink_pydoc.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

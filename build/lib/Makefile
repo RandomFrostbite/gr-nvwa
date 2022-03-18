@@ -255,33 +255,6 @@ console_sink_impl.cc.s:
 	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-nvwa.dir/build.make lib/CMakeFiles/gnuradio-nvwa.dir/console_sink_impl.cc.s
 .PHONY : console_sink_impl.cc.s
 
-enable_sink_impl.o: enable_sink_impl.cc.o
-
-.PHONY : enable_sink_impl.o
-
-# target to build an object file
-enable_sink_impl.cc.o:
-	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-nvwa.dir/build.make lib/CMakeFiles/gnuradio-nvwa.dir/enable_sink_impl.cc.o
-.PHONY : enable_sink_impl.cc.o
-
-enable_sink_impl.i: enable_sink_impl.cc.i
-
-.PHONY : enable_sink_impl.i
-
-# target to preprocess a source file
-enable_sink_impl.cc.i:
-	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-nvwa.dir/build.make lib/CMakeFiles/gnuradio-nvwa.dir/enable_sink_impl.cc.i
-.PHONY : enable_sink_impl.cc.i
-
-enable_sink_impl.s: enable_sink_impl.cc.s
-
-.PHONY : enable_sink_impl.s
-
-# target to generate assembly for a file
-enable_sink_impl.cc.s:
-	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-nvwa.dir/build.make lib/CMakeFiles/gnuradio-nvwa.dir/enable_sink_impl.cc.s
-.PHONY : enable_sink_impl.cc.s
-
 fsp_splitter_impl.o: fsp_splitter_impl.cc.o
 
 .PHONY : fsp_splitter_impl.o
@@ -309,33 +282,6 @@ fsp_splitter_impl.cc.s:
 	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-nvwa.dir/build.make lib/CMakeFiles/gnuradio-nvwa.dir/fsp_splitter_impl.cc.s
 .PHONY : fsp_splitter_impl.cc.s
 
-square_ff_impl.o: square_ff_impl.cc.o
-
-.PHONY : square_ff_impl.o
-
-# target to build an object file
-square_ff_impl.cc.o:
-	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-nvwa.dir/build.make lib/CMakeFiles/gnuradio-nvwa.dir/square_ff_impl.cc.o
-.PHONY : square_ff_impl.cc.o
-
-square_ff_impl.i: square_ff_impl.cc.i
-
-.PHONY : square_ff_impl.i
-
-# target to preprocess a source file
-square_ff_impl.cc.i:
-	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-nvwa.dir/build.make lib/CMakeFiles/gnuradio-nvwa.dir/square_ff_impl.cc.i
-.PHONY : square_ff_impl.cc.i
-
-square_ff_impl.s: square_ff_impl.cc.s
-
-.PHONY : square_ff_impl.s
-
-# target to generate assembly for a file
-square_ff_impl.cc.s:
-	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/gnuradio-nvwa.dir/build.make lib/CMakeFiles/gnuradio-nvwa.dir/square_ff_impl.cc.s
-.PHONY : square_ff_impl.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -356,15 +302,9 @@ help:
 	@echo "... console_sink_impl.o"
 	@echo "... console_sink_impl.i"
 	@echo "... console_sink_impl.s"
-	@echo "... enable_sink_impl.o"
-	@echo "... enable_sink_impl.i"
-	@echo "... enable_sink_impl.s"
 	@echo "... fsp_splitter_impl.o"
 	@echo "... fsp_splitter_impl.i"
 	@echo "... fsp_splitter_impl.s"
-	@echo "... square_ff_impl.o"
-	@echo "... square_ff_impl.i"
-	@echo "... square_ff_impl.s"
 .PHONY : help
 
 

@@ -1,31 +1,10 @@
-Start testing: Mar 17 21:14 EDT
+Start testing: Mar 17 21:29 EDT
 ----------------------------------------------------------
-1/5 Testing: qa_square_ff
-1/5 Test: qa_square_ff
-Command: "/usr/bin/sh" "qa_square_ff_test.sh"
-Directory: /home/nvwa/OOT/gr-nvwa/build/python/nvwa
-"qa_square_ff" start time: Mar 17 21:14 EDT
-Output:
-----------------------------------------------------------
-..
-----------------------------------------------------------------------
-Ran 2 tests in 0.002s
-
-OK
-DEPRECATED: Using filename with gr_unittest does no longer have any effect.
-<end of output>
-Test time =   0.19 sec
-----------------------------------------------------------
-Test Passed.
-"qa_square_ff" end time: Mar 17 21:14 EDT
-"qa_square_ff" time elapsed: 00:00:00
-----------------------------------------------------------
-
-2/5 Testing: qa_console_sink
-2/5 Test: qa_console_sink
+1/3 Testing: qa_console_sink
+1/3 Test: qa_console_sink
 Command: "/usr/bin/sh" "qa_console_sink_test.sh"
 Directory: /home/nvwa/OOT/gr-nvwa/build/python/nvwa
-"qa_console_sink" start time: Mar 17 21:14 EDT
+"qa_console_sink" start time: Mar 17 21:29 EDT
 Output:
 ----------------------------------------------------------
 ..
@@ -38,57 +17,36 @@ DEPRECATED: Using filename with gr_unittest does no longer have any effect.
 Test time =   0.20 sec
 ----------------------------------------------------------
 Test Passed.
-"qa_console_sink" end time: Mar 17 21:14 EDT
+"qa_console_sink" end time: Mar 17 21:29 EDT
 "qa_console_sink" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/5 Testing: qa_enable_sink
-3/5 Test: qa_enable_sink
-Command: "/usr/bin/sh" "qa_enable_sink_test.sh"
-Directory: /home/nvwa/OOT/gr-nvwa/build/python/nvwa
-"qa_enable_sink" start time: Mar 17 21:14 EDT
-Output:
-----------------------------------------------------------
-..
-----------------------------------------------------------------------
-Ran 2 tests in 0.000s
-
-OK
-DEPRECATED: Using filename with gr_unittest does no longer have any effect.
-<end of output>
-Test time =   0.20 sec
-----------------------------------------------------------
-Test Passed.
-"qa_enable_sink" end time: Mar 17 21:14 EDT
-"qa_enable_sink" time elapsed: 00:00:00
-----------------------------------------------------------
-
-4/5 Testing: qa_buffer
-4/5 Test: qa_buffer
+2/3 Testing: qa_buffer
+2/3 Test: qa_buffer
 Command: "/usr/bin/sh" "qa_buffer_test.sh"
 Directory: /home/nvwa/OOT/gr-nvwa/build/python/nvwa
-"qa_buffer" start time: Mar 17 21:14 EDT
+"qa_buffer" start time: Mar 17 21:29 EDT
 Output:
 ----------------------------------------------------------
 ..
 ----------------------------------------------------------------------
-Ran 2 tests in 0.000s
+Ran 2 tests in 0.001s
 
 OK
 DEPRECATED: Using filename with gr_unittest does no longer have any effect.
 <end of output>
-Test time =   0.18 sec
+Test time =   0.21 sec
 ----------------------------------------------------------
 Test Passed.
-"qa_buffer" end time: Mar 17 21:14 EDT
+"qa_buffer" end time: Mar 17 21:29 EDT
 "qa_buffer" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/5 Testing: qa_fsp_splitter
-5/5 Test: qa_fsp_splitter
+3/3 Testing: qa_fsp_splitter
+3/3 Test: qa_fsp_splitter
 Command: "/usr/bin/sh" "qa_fsp_splitter_test.sh"
 Directory: /home/nvwa/OOT/gr-nvwa/build/python/nvwa
-"qa_fsp_splitter" start time: Mar 17 21:14 EDT
+"qa_fsp_splitter" start time: Mar 17 21:29 EDT
 Output:
 ----------------------------------------------------------
 ..
@@ -100,8 +58,8 @@ OK
 Test time =   0.16 sec
 ----------------------------------------------------------
 Test Passed.
-"qa_fsp_splitter" end time: Mar 17 21:14 EDT
+"qa_fsp_splitter" end time: Mar 17 21:29 EDT
 "qa_fsp_splitter" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Mar 17 21:14 EDT
+End testing: Mar 17 21:29 EDT

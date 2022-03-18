@@ -11,12 +11,6 @@ python/nvwa/bindings/CMakeFiles/nvwa_python.dir/console_sink_python.cc.o
  ../include/gnuradio/nvwa/api.h
  ../include/gnuradio/nvwa/console_sink.h
  /home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/console_sink_python.cc
-python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o
- ../include/gnuradio/nvwa/api.h
- ../include/gnuradio/nvwa/enable_sink.h
- /home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/enable_sink_python.cc
- python/nvwa/bindings/enable_sink_pydoc.h
- python/nvwa/bindings/pydoc_macros.h
 python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o
  ../include/gnuradio/nvwa/api.h
  ../include/gnuradio/nvwa/fsp_splitter.h
@@ -137,9 +131,3 @@ python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o
  /usr/include/python3.9/unicodeobject.h
  /usr/include/python3.9/warnings.h
  /usr/include/python3.9/weakrefobject.h
-python/nvwa/bindings/CMakeFiles/nvwa_python.dir/square_ff_python.cc.o
- ../include/gnuradio/nvwa/api.h
- ../include/gnuradio/nvwa/square_ff.h
- /home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/square_ff_python.cc
- python/nvwa/bindings/pydoc_macros.h
- python/nvwa/bindings/square_ff_pydoc.h

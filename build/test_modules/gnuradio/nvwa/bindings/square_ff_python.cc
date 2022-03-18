@@ -14,7 +14,7 @@
 /* BINDTOOL_GEN_AUTOMATIC(0)                                                       */
 /* BINDTOOL_USE_PYGCCXML(0)                                                        */
 /* BINDTOOL_HEADER_FILE(square_ff.h)                                        */
-/* BINDTOOL_HEADER_FILE_HASH(9863ece6208cca01edb6b0888f87afe4)                     */
+/* BINDTOOL_HEADER_FILE_HASH(4414af27576b77833a7ce786d162b2c9)                     */
 /***********************************************************************************/
 
 #include <pybind11/complex.h>
@@ -33,7 +33,7 @@ void bind_square_ff(py::module& m)
     using square_ff    = gr::nvwa::square_ff;
 
 
-    py::class_<square_ff, gr::block, gr::basic_block,
+    py::class_<square_ff, gr::sync_block, gr::block, gr::basic_block,
         std::shared_ptr<square_ff>>(m, "square_ff", D(square_ff))
 
         .def(py::init(&square_ff::make),

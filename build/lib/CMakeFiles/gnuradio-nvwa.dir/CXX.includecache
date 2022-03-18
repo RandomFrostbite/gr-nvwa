@@ -6,25 +6,3 @@
 
 #IncludeRegexTransform: 
 
-../include/gnuradio/nvwa/api.h
-gnuradio/attributes.h
--
-
-../include/gnuradio/nvwa/fsp_splitter.h
-gnuradio/block.h
--
-gnuradio/nvwa/api.h
--
-
-/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.cc
-fsp_splitter_impl.h
-/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h
-gnuradio/io_signature.h
--
-algorithm
--
-
-/home/nvwa/OOT/gr-nvwa/lib/fsp_splitter_impl.h
-gnuradio/nvwa/fsp_splitter.h
--
-

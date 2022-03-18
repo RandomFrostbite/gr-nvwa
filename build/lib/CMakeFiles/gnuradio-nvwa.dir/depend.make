@@ -11,18 +11,8 @@ lib/CMakeFiles/gnuradio-nvwa.dir/console_sink_impl.cc.o: ../include/gnuradio/nvw
 lib/CMakeFiles/gnuradio-nvwa.dir/console_sink_impl.cc.o: ../lib/console_sink_impl.cc
 lib/CMakeFiles/gnuradio-nvwa.dir/console_sink_impl.cc.o: ../lib/console_sink_impl.h
 
-lib/CMakeFiles/gnuradio-nvwa.dir/enable_sink_impl.cc.o: ../include/gnuradio/nvwa/api.h
-lib/CMakeFiles/gnuradio-nvwa.dir/enable_sink_impl.cc.o: ../include/gnuradio/nvwa/enable_sink.h
-lib/CMakeFiles/gnuradio-nvwa.dir/enable_sink_impl.cc.o: ../lib/enable_sink_impl.cc
-lib/CMakeFiles/gnuradio-nvwa.dir/enable_sink_impl.cc.o: ../lib/enable_sink_impl.h
-
 lib/CMakeFiles/gnuradio-nvwa.dir/fsp_splitter_impl.cc.o: ../include/gnuradio/nvwa/api.h
 lib/CMakeFiles/gnuradio-nvwa.dir/fsp_splitter_impl.cc.o: ../include/gnuradio/nvwa/fsp_splitter.h
 lib/CMakeFiles/gnuradio-nvwa.dir/fsp_splitter_impl.cc.o: ../lib/fsp_splitter_impl.cc
 lib/CMakeFiles/gnuradio-nvwa.dir/fsp_splitter_impl.cc.o: ../lib/fsp_splitter_impl.h
-
-lib/CMakeFiles/gnuradio-nvwa.dir/square_ff_impl.cc.o: ../include/gnuradio/nvwa/api.h
-lib/CMakeFiles/gnuradio-nvwa.dir/square_ff_impl.cc.o: ../include/gnuradio/nvwa/square_ff.h
-lib/CMakeFiles/gnuradio-nvwa.dir/square_ff_impl.cc.o: ../lib/square_ff_impl.cc
-lib/CMakeFiles/gnuradio-nvwa.dir/square_ff_impl.cc.o: ../lib/square_ff_impl.h
 

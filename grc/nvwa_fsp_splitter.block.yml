@@ -1,5 +1,5 @@
 id: nvwa_fsp_splitter
-label: fsp splitter
+label: FSP Splitter
 category: '[Nvwa]'
 templates:
   imports: from gnuradio import nvwa
@@ -18,7 +18,7 @@ parameters:
   default: ' 0'
   dtype: int
 inputs:
-- label: in
+- label: In
   domain: stream
   dtype: float
 outputs:
@@ -26,7 +26,7 @@ outputs:
   domain: stream
   dtype: float
   multiplicity: '1'
-- label: data
+- label: Data
   domain: stream
   dtype: float
   multiplicity: '1'

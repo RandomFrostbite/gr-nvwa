@@ -45,9 +45,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gnuradio/nvwa" TYPE FILE FILES
     "/home/nvwa/OOT/gr-nvwa/include/gnuradio/nvwa/api.h"
-    "/home/nvwa/OOT/gr-nvwa/include/gnuradio/nvwa/square_ff.h"
     "/home/nvwa/OOT/gr-nvwa/include/gnuradio/nvwa/console_sink.h"
-    "/home/nvwa/OOT/gr-nvwa/include/gnuradio/nvwa/enable_sink.h"
     "/home/nvwa/OOT/gr-nvwa/include/gnuradio/nvwa/buffer.h"
     "/home/nvwa/OOT/gr-nvwa/include/gnuradio/nvwa/fsp_splitter.h"
     )

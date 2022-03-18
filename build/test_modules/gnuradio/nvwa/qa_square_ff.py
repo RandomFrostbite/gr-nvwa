@@ -7,7 +7,7 @@
 #
 
 from gnuradio import gr, gr_unittest
-from gnuradio import blocks
+# from gnuradio import blocks
 try:
   from gnuradio.nvwa import square_ff
 except ImportError:
@@ -26,20 +26,14 @@ class qa_square_ff(gr_unittest.TestCase):
         self.tb = None
 
     def test_instance(self):
+        # FIXME: Test will fail until you pass sensible arguments to the constructor
         instance = square_ff()
 
-    def test_001_square_ff(self):
-        src_data = (-3, 4, -5.5, 2, 3)
-        expected_result = (9, 16, 30.25, 4, 9)
-        src = blocks.vector_source_f(src_data)
-        sqr = square_ff()
-        dst = blocks.vector_sink_f()
-        self.tb.connect(src, sqr)
-        self.tb.connect(sqr, dst)
+    def test_001_descriptive_test_name(self):
+        # set up fg
         self.tb.run()
-        result_data = dst.data()
-        self.assertFloatTuplesAlmostEqual(expected_result, result_data, 6)
+        # check data
 
 
 if __name__ == '__main__':
-    gr_unittest.run(qa_square_ff, "qa_square_ff.yaml")
+    gr_unittest.run(qa_square_ff)

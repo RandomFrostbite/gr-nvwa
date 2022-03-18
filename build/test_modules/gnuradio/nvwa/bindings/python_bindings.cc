@@ -21,9 +21,7 @@ namespace py = pybind11;
 // Please do not delete
 /**************************************/
 // BINDING_FUNCTION_PROTOTYPES(
-    void bind_square_ff(py::module& m);
     void bind_console_sink(py::module& m);
-    void bind_enable_sink(py::module& m);
     void bind_buffer(py::module& m);
     void bind_fsp_splitter(py::module& m);
 // ) END BINDING_FUNCTION_PROTOTYPES
@@ -54,9 +52,7 @@ PYBIND11_MODULE(nvwa_python, m)
     // Please do not delete
     /**************************************/
     // BINDING_FUNCTION_CALLS(
-    bind_square_ff(m);
     bind_console_sink(m);
-    bind_enable_sink(m);
     bind_buffer(m);
     bind_fsp_splitter(m);
     // ) END BINDING_FUNCTION_CALLS

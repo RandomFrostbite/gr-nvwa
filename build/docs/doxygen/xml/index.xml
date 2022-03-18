@@ -19,16 +19,6 @@
     <member refid="classgr_1_1nvwa_1_1console__sink__impl_1a39b493960021de51658020fa735c3b9c" kind="function"><name>~console_sink_impl</name></member>
     <member refid="classgr_1_1nvwa_1_1console__sink__impl_1a921e42edffbb1f09d75563e030d42dc9" kind="function"><name>work</name></member>
   </compound>
-  <compound refid="classgr_1_1nvwa_1_1enable__sink" kind="class"><name>gr::nvwa::enable_sink</name>
-    <member refid="classgr_1_1nvwa_1_1enable__sink_1afdfad26eaa74d5ccac981a12193dc8b0" kind="typedef"><name>sptr</name></member>
-    <member refid="classgr_1_1nvwa_1_1enable__sink_1ac8e4119399dfdb26afe3c3ce76edd46c" kind="function"><name>make</name></member>
-  </compound>
-  <compound refid="classgr_1_1nvwa_1_1enable__sink__impl" kind="class"><name>gr::nvwa::enable_sink_impl</name>
-    <member refid="classgr_1_1nvwa_1_1enable__sink__impl_1a3c096ffc705ea785257453a9ffa344fe" kind="variable"><name>m_code</name></member>
-    <member refid="classgr_1_1nvwa_1_1enable__sink__impl_1aa6a91a60243e2dd6071bbc29306473b5" kind="function"><name>enable_sink_impl</name></member>
-    <member refid="classgr_1_1nvwa_1_1enable__sink__impl_1a5f2ab0734227d94758420e0f143f6b18" kind="function"><name>~enable_sink_impl</name></member>
-    <member refid="classgr_1_1nvwa_1_1enable__sink__impl_1a616f7f79e7250dbe605f28c0ca470a31" kind="function"><name>work</name></member>
-  </compound>
   <compound refid="classgr_1_1nvwa_1_1fsp__splitter" kind="class"><name>gr::nvwa::fsp_splitter</name>
     <member refid="classgr_1_1nvwa_1_1fsp__splitter_1a949f1da312d294f9be741b7f89299c47" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1nvwa_1_1fsp__splitter_1a027dbdaff10b976372368d84c2b3a765" kind="function"><name>make</name></member>
@@ -45,16 +35,6 @@
     <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1a89f4123a306392157741be347a107565" kind="function"><name>~fsp_splitter_impl</name></member>
     <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1ac770cea76efdfb3ece8b3a06ffcce135" kind="function"><name>forecast</name></member>
     <member refid="classgr_1_1nvwa_1_1fsp__splitter__impl_1a4143f86e65bc85965c4d5b5a4154df19" kind="function"><name>general_work</name></member>
-  </compound>
-  <compound refid="classgr_1_1nvwa_1_1square__ff" kind="class"><name>gr::nvwa::square_ff</name>
-    <member refid="classgr_1_1nvwa_1_1square__ff_1aad0cc414ffbc78e84fb9612f0fd37056" kind="typedef"><name>sptr</name></member>
-    <member refid="classgr_1_1nvwa_1_1square__ff_1ad2ce807a87f25218d47cc2f1272994b5" kind="function"><name>make</name></member>
-  </compound>
-  <compound refid="classgr_1_1nvwa_1_1square__ff__impl" kind="class"><name>gr::nvwa::square_ff_impl</name>
-    <member refid="classgr_1_1nvwa_1_1square__ff__impl_1a37bf93cadabb891d15ca579ae4e3759b" kind="function"><name>square_ff_impl</name></member>
-    <member refid="classgr_1_1nvwa_1_1square__ff__impl_1a73dc66f02056ed000d5a3300b150d39c" kind="function"><name>~square_ff_impl</name></member>
-    <member refid="classgr_1_1nvwa_1_1square__ff__impl_1abc3878a9f33d7c5982d50fb66e34c4b2" kind="function"><name>forecast</name></member>
-    <member refid="classgr_1_1nvwa_1_1square__ff__impl_1a2582b7e7205ff36efe092b08f4de573c" kind="function"><name>general_work</name></member>
   </compound>
   <compound refid="namespacegr" kind="namespace"><name>gr</name>
   </compound>
@@ -109,27 +89,17 @@
     <member refid="python_2nvwa_2bindings_2docstrings_2console__sink__pydoc__template_8h_1ac6e0dbb8587c6de40e289e730b2cb764" kind="variable"><name>__doc_gr_nvwa_console_sink_console_sink</name></member>
     <member refid="python_2nvwa_2bindings_2docstrings_2console__sink__pydoc__template_8h_1ac91a2d959eacfb17567470fe4ace4e7d" kind="variable"><name>__doc_gr_nvwa_console_sink_make</name></member>
   </compound>
-  <compound refid="enable__sink_8h" kind="file"><name>enable_sink.h</name>
-  </compound>
-  <compound refid="enable__sink__impl_8h" kind="file"><name>enable_sink_impl.h</name>
-  </compound>
   <compound refid="enable__sink__pydoc_8h" kind="file"><name>enable_sink_pydoc.h</name>
     <member refid="enable__sink__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
     <member refid="enable__sink__pydoc_8h_1ac9735132cf7ea33cdef88b5fec6f52e4" kind="variable"><name>__doc_gr_nvwa_enable_sink</name></member>
     <member refid="enable__sink__pydoc_8h_1ac731f6c7772d2e2ed8ee5213719c10db" kind="variable"><name>__doc_gr_nvwa_enable_sink_enable_sink</name></member>
     <member refid="enable__sink__pydoc_8h_1a0450a3e6f94d2e30467bb3e4fb9e47f4" kind="variable"><name>__doc_gr_nvwa_enable_sink_make</name></member>
   </compound>
-  <compound refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h" kind="file"><name>build/test_modules/gnuradio/nvwa/bindings/docstrings/enable_sink_pydoc_template.h</name>
-    <member refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
-    <member refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h_1ac9735132cf7ea33cdef88b5fec6f52e4" kind="variable"><name>__doc_gr_nvwa_enable_sink</name></member>
-    <member refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h_1ac731f6c7772d2e2ed8ee5213719c10db" kind="variable"><name>__doc_gr_nvwa_enable_sink_enable_sink</name></member>
-    <member refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h_1a0450a3e6f94d2e30467bb3e4fb9e47f4" kind="variable"><name>__doc_gr_nvwa_enable_sink_make</name></member>
-  </compound>
-  <compound refid="python_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h" kind="file"><name>python/nvwa/bindings/docstrings/enable_sink_pydoc_template.h</name>
-    <member refid="python_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
-    <member refid="python_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h_1ac9735132cf7ea33cdef88b5fec6f52e4" kind="variable"><name>__doc_gr_nvwa_enable_sink</name></member>
-    <member refid="python_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h_1ac731f6c7772d2e2ed8ee5213719c10db" kind="variable"><name>__doc_gr_nvwa_enable_sink_enable_sink</name></member>
-    <member refid="python_2nvwa_2bindings_2docstrings_2enable__sink__pydoc__template_8h_1a0450a3e6f94d2e30467bb3e4fb9e47f4" kind="variable"><name>__doc_gr_nvwa_enable_sink_make</name></member>
+  <compound refid="enable__sink__pydoc__template_8h" kind="file"><name>enable_sink_pydoc_template.h</name>
+    <member refid="enable__sink__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="enable__sink__pydoc__template_8h_1ac9735132cf7ea33cdef88b5fec6f52e4" kind="variable"><name>__doc_gr_nvwa_enable_sink</name></member>
+    <member refid="enable__sink__pydoc__template_8h_1ac731f6c7772d2e2ed8ee5213719c10db" kind="variable"><name>__doc_gr_nvwa_enable_sink_enable_sink</name></member>
+    <member refid="enable__sink__pydoc__template_8h_1a0450a3e6f94d2e30467bb3e4fb9e47f4" kind="variable"><name>__doc_gr_nvwa_enable_sink_make</name></member>
   </compound>
   <compound refid="fsp__splitter_8h" kind="file"><name>fsp_splitter.h</name>
   </compound>
@@ -187,27 +157,17 @@
     <member refid="docs_2doxygen_2pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" kind="define"><name>__DOC7</name></member>
     <member refid="docs_2doxygen_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kind="define"><name>DOC</name></member>
   </compound>
-  <compound refid="square__ff_8h" kind="file"><name>square_ff.h</name>
-  </compound>
-  <compound refid="square__ff__impl_8h" kind="file"><name>square_ff_impl.h</name>
-  </compound>
   <compound refid="square__ff__pydoc_8h" kind="file"><name>square_ff_pydoc.h</name>
     <member refid="square__ff__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
     <member refid="square__ff__pydoc_8h_1a451a8f7c8a2ba7f0ede173a69b9a1a55" kind="variable"><name>__doc_gr_nvwa_square_ff</name></member>
     <member refid="square__ff__pydoc_8h_1a69df9e38455e83fda6f399c165c93bf3" kind="variable"><name>__doc_gr_nvwa_square_ff_square_ff</name></member>
     <member refid="square__ff__pydoc_8h_1a370d9da9f3df9425e3c0fe9b462cfe9f" kind="variable"><name>__doc_gr_nvwa_square_ff_make</name></member>
   </compound>
-  <compound refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2square__ff__pydoc__template_8h" kind="file"><name>build/test_modules/gnuradio/nvwa/bindings/docstrings/square_ff_pydoc_template.h</name>
-    <member refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2square__ff__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
-    <member refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2square__ff__pydoc__template_8h_1a451a8f7c8a2ba7f0ede173a69b9a1a55" kind="variable"><name>__doc_gr_nvwa_square_ff</name></member>
-    <member refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2square__ff__pydoc__template_8h_1a69df9e38455e83fda6f399c165c93bf3" kind="variable"><name>__doc_gr_nvwa_square_ff_square_ff</name></member>
-    <member refid="build_2test__modules_2gnuradio_2nvwa_2bindings_2docstrings_2square__ff__pydoc__template_8h_1a370d9da9f3df9425e3c0fe9b462cfe9f" kind="variable"><name>__doc_gr_nvwa_square_ff_make</name></member>
-  </compound>
-  <compound refid="python_2nvwa_2bindings_2docstrings_2square__ff__pydoc__template_8h" kind="file"><name>python/nvwa/bindings/docstrings/square_ff_pydoc_template.h</name>
-    <member refid="python_2nvwa_2bindings_2docstrings_2square__ff__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
-    <member refid="python_2nvwa_2bindings_2docstrings_2square__ff__pydoc__template_8h_1a451a8f7c8a2ba7f0ede173a69b9a1a55" kind="variable"><name>__doc_gr_nvwa_square_ff</name></member>
-    <member refid="python_2nvwa_2bindings_2docstrings_2square__ff__pydoc__template_8h_1a69df9e38455e83fda6f399c165c93bf3" kind="variable"><name>__doc_gr_nvwa_square_ff_square_ff</name></member>
-    <member refid="python_2nvwa_2bindings_2docstrings_2square__ff__pydoc__template_8h_1a370d9da9f3df9425e3c0fe9b462cfe9f" kind="variable"><name>__doc_gr_nvwa_square_ff_make</name></member>
+  <compound refid="square__ff__pydoc__template_8h" kind="file"><name>square_ff_pydoc_template.h</name>
+    <member refid="square__ff__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" kind="define"><name>D</name></member>
+    <member refid="square__ff__pydoc__template_8h_1a451a8f7c8a2ba7f0ede173a69b9a1a55" kind="variable"><name>__doc_gr_nvwa_square_ff</name></member>
+    <member refid="square__ff__pydoc__template_8h_1a69df9e38455e83fda6f399c165c93bf3" kind="variable"><name>__doc_gr_nvwa_square_ff_square_ff</name></member>
+    <member refid="square__ff__pydoc__template_8h_1a370d9da9f3df9425e3c0fe9b462cfe9f" kind="variable"><name>__doc_gr_nvwa_square_ff_make</name></member>
   </compound>
   <compound refid="group__block" kind="group"><name>block</name>
   </compound>

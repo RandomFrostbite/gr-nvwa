@@ -7,7 +7,7 @@
 #
 
 from gnuradio import gr, gr_unittest
-from gnuradio import blocks
+# from gnuradio import blocks
 try:
   from gnuradio.nvwa import enable_sink
 except ImportError:
@@ -27,14 +27,13 @@ class qa_enable_sink(gr_unittest.TestCase):
 
     def test_instance(self):
         # FIXME: Test will fail until you pass sensible arguments to the constructor
-        instance = enable_sink(1)
+        instance = enable_sink()
 
     def test_001_descriptive_test_name(self):
-    	pass
         # set up fg
-        # self.tb.run()
+        self.tb.run()
         # check data
 
 
 if __name__ == '__main__':
-    gr_unittest.run(qa_enable_sink, "qa_enable_sink.yaml")
+    gr_unittest.run(qa_enable_sink)

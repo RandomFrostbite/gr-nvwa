@@ -4,14 +4,10 @@
     <compoundname>gr::nvwa</compoundname>
     <innerclass refid="classgr_1_1nvwa_1_1buffer" prot="public">gr::nvwa::buffer</innerclass>
     <innerclass refid="classgr_1_1nvwa_1_1console__sink" prot="public">gr::nvwa::console_sink</innerclass>
-    <innerclass refid="classgr_1_1nvwa_1_1enable__sink" prot="public">gr::nvwa::enable_sink</innerclass>
     <innerclass refid="classgr_1_1nvwa_1_1fsp__splitter" prot="public">gr::nvwa::fsp_splitter</innerclass>
-    <innerclass refid="classgr_1_1nvwa_1_1square__ff" prot="public">gr::nvwa::square_ff</innerclass>
     <innerclass refid="classgr_1_1nvwa_1_1buffer__impl" prot="public">gr::nvwa::buffer_impl</innerclass>
     <innerclass refid="classgr_1_1nvwa_1_1console__sink__impl" prot="public">gr::nvwa::console_sink_impl</innerclass>
-    <innerclass refid="classgr_1_1nvwa_1_1enable__sink__impl" prot="public">gr::nvwa::enable_sink_impl</innerclass>
     <innerclass refid="classgr_1_1nvwa_1_1fsp__splitter__impl" prot="public">gr::nvwa::fsp_splitter_impl</innerclass>
-    <innerclass refid="classgr_1_1nvwa_1_1square__ff__impl" prot="public">gr::nvwa::square_ff_impl</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

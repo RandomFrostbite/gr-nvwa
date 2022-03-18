@@ -6,10 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/buffer_python.cc" "/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/CMakeFiles/nvwa_python.dir/buffer_python.cc.o"
   "/home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/console_sink_python.cc" "/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/CMakeFiles/nvwa_python.dir/console_sink_python.cc.o"
-  "/home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/enable_sink_python.cc" "/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o"
   "/home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/fsp_splitter_python.cc" "/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/CMakeFiles/nvwa_python.dir/fsp_splitter_python.cc.o"
   "/home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/python_bindings.cc" "/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.o"
-  "/home/nvwa/OOT/gr-nvwa/python/nvwa/bindings/square_ff_python.cc" "/home/nvwa/OOT/gr-nvwa/build/python/nvwa/bindings/CMakeFiles/nvwa_python.dir/square_ff_python.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

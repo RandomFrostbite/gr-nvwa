@@ -300,33 +300,6 @@ console_sink_python.cc.s:
 	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make python/nvwa/bindings/CMakeFiles/nvwa_python.dir/console_sink_python.cc.s
 .PHONY : console_sink_python.cc.s
 
-enable_sink_python.o: enable_sink_python.cc.o
-
-.PHONY : enable_sink_python.o
-
-# target to build an object file
-enable_sink_python.cc.o:
-	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.o
-.PHONY : enable_sink_python.cc.o
-
-enable_sink_python.i: enable_sink_python.cc.i
-
-.PHONY : enable_sink_python.i
-
-# target to preprocess a source file
-enable_sink_python.cc.i:
-	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.i
-.PHONY : enable_sink_python.cc.i
-
-enable_sink_python.s: enable_sink_python.cc.s
-
-.PHONY : enable_sink_python.s
-
-# target to generate assembly for a file
-enable_sink_python.cc.s:
-	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make python/nvwa/bindings/CMakeFiles/nvwa_python.dir/enable_sink_python.cc.s
-.PHONY : enable_sink_python.cc.s
-
 fsp_splitter_python.o: fsp_splitter_python.cc.o
 
 .PHONY : fsp_splitter_python.o
@@ -381,33 +354,6 @@ python_bindings.cc.s:
 	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make python/nvwa/bindings/CMakeFiles/nvwa_python.dir/python_bindings.cc.s
 .PHONY : python_bindings.cc.s
 
-square_ff_python.o: square_ff_python.cc.o
-
-.PHONY : square_ff_python.o
-
-# target to build an object file
-square_ff_python.cc.o:
-	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make python/nvwa/bindings/CMakeFiles/nvwa_python.dir/square_ff_python.cc.o
-.PHONY : square_ff_python.cc.o
-
-square_ff_python.i: square_ff_python.cc.i
-
-.PHONY : square_ff_python.i
-
-# target to preprocess a source file
-square_ff_python.cc.i:
-	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make python/nvwa/bindings/CMakeFiles/nvwa_python.dir/square_ff_python.cc.i
-.PHONY : square_ff_python.cc.i
-
-square_ff_python.s: square_ff_python.cc.s
-
-.PHONY : square_ff_python.s
-
-# target to generate assembly for a file
-square_ff_python.cc.s:
-	cd /home/nvwa/OOT/gr-nvwa/build && $(MAKE) $(MAKESILENT) -f python/nvwa/bindings/CMakeFiles/nvwa_python.dir/build.make python/nvwa/bindings/CMakeFiles/nvwa_python.dir/square_ff_python.cc.s
-.PHONY : square_ff_python.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -431,18 +377,12 @@ help:
 	@echo "... console_sink_python.o"
 	@echo "... console_sink_python.i"
 	@echo "... console_sink_python.s"
-	@echo "... enable_sink_python.o"
-	@echo "... enable_sink_python.i"
-	@echo "... enable_sink_python.s"
 	@echo "... fsp_splitter_python.o"
 	@echo "... fsp_splitter_python.i"
 	@echo "... fsp_splitter_python.s"
 	@echo "... python_bindings.o"
 	@echo "... python_bindings.i"
 	@echo "... python_bindings.s"
-	@echo "... square_ff_python.o"
-	@echo "... square_ff_python.i"
-	@echo "... square_ff_python.s"
 .PHONY : help
 
 

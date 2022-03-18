@@ -44,9 +44,7 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES
-    "/home/nvwa/OOT/gr-nvwa/grc/nvwa_square_ff.block.yml"
     "/home/nvwa/OOT/gr-nvwa/grc/nvwa_console_sink.block.yml"
-    "/home/nvwa/OOT/gr-nvwa/grc/nvwa_enable_sink.block.yml"
     "/home/nvwa/OOT/gr-nvwa/grc/nvwa_buffer.block.yml"
     "/home/nvwa/OOT/gr-nvwa/grc/nvwa_fsp_splitter.block.yml"
     )
