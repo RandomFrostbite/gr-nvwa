@@ -6,15 +6,15 @@ templates:
   make: nvwa.fsp_splitter(${threshold}, ${delay_counter}, ${freq_sync_preamble_size})
 parameters:
 - id: threshold
-  label: Threshold
+  label: Magnitude Threshold
   default: ' 0'
   dtype: float
 - id: delay_counter
-  label: Delay_counter
+  label: Delay Counter
   default: ' 0'
   dtype: int
 - id: freq_sync_preamble_size
-  label: Freq_sync_preamble_size
+  label: Freq Sync Preamble Size
   default: ' 0'
   dtype: int
 inputs:
@@ -22,7 +22,7 @@ inputs:
   domain: stream
   dtype: float
 outputs:
-- label: freq_synk_preamble
+- label: Freq Sync Preamble
   domain: stream
   dtype: float
   multiplicity: '1'

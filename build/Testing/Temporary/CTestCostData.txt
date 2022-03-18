@@ -1,6 +1,6 @@
-qa_square_ff 56 0.00516615
-qa_console_sink 55 0.00409949
-qa_enable_sink 36 0.00540801
-qa_buffer 29 0.00692353
-qa_fsp_splitter 3 0.0566039
+qa_square_ff 57 0.00339264
+qa_console_sink 56 0.0035124
+qa_enable_sink 37 0.00528287
+qa_buffer 30 0.00616652
+qa_fsp_splitter 4 0.0400868
 ---
